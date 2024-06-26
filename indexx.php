@@ -51,16 +51,35 @@ session_start()
         <a href="#" class="panel">
             <strong>Contestant 6</strong>
         </a>
+        <a href="#" class="panel">
+            <strong>Contestant 1</strong>
+        </a>
+        <a href="#" class="panel">
+            <strong>Contestant 2</strong>
+        </a>
+        <a href="#" class="panel">
+            <strong>Contestant 3</strong>
+        </a>
+        <a href="#" class="panel">
+            <strong>Contestant 4</strong>
+        </a>
+        <a href="#" class="panel">
+            <strong>Contestant 5</strong>
+        </a>
+        <a href="#" class="panel">
+            <strong>Contestant 6</strong>
+        </a>
 
         <div class="logout-button">
-            <a href="">
-                <button><strong>LOGOUT</strong></button>
-            </a>
+            <button class="button" style="margin-bottom:15%">LOGOUT</button>
         </div>
     </div>
 
-
     <div class="container">
+
+    </div>
+    <div class="container">
+
         <h1>SEARCH FOR MOST FESTIVE CONTINGENT</h1>
 
         <form action="#" method="post">
@@ -82,26 +101,34 @@ session_start()
             </div>
 
             <div class="buttons">
+                
+                    <button class="buttonlogout">Back</button>
+                
                 <button onclick="document.getElementById('id01').style.display='block'" type="submit">Submit</button>
+
+
+
                 <div id="id01" class="modal">
                     <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
                     <form class="modal-content" action="/action_page.php">
                         <div class="containermodal">
-                            <h1>Delete Account</h1>
-                            <p>Are you sure you want to delete your account?</p>
+                            <h1>Submit?</h1>
+                            <p>Are you sure you want to submit?</p>
 
                             <div class="clearfix">
                                 <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="deletebtn">Delete</button>
+                                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="deletebtn">Proceed</button>
                             </div>
                         </div>
                     </form>
                 </div>
+
             </div>
 
         </form>
 
     </div>
+
 
     <script>
         // Get the modal
@@ -109,7 +136,7 @@ session_start()
         var modal = document.getElementById('id01');
 
         // Get the button that opens the modal
-        var btn = document.getElementById("myBtn");
+        
 
         // Get the <span> element that closes the modal
         var span = document.getElementsByClassName("close")[0];

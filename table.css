@@ -50,7 +50,7 @@ h1 {
     margin-bottom: 15px;
     align-content: center;
     text-align:right;
-    padding-top: 20px;
+    padding-top: 5px;
     }
 
 
@@ -78,7 +78,6 @@ input {
 }
 
 button {
-
     width: 50%;
     height: 40px;
     background-color: #4c3be6;
@@ -87,14 +86,15 @@ button {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-
+    margin: 5%;
 }
 .buttons {
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding-left: 350px;
-    padding-top: 5px;
+    padding-left: 70px;
+    padding-top: 0px;
     width: 400px;
+    display: inline-flex;
 }
 
 button:hover {
